@@ -9,7 +9,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @AllArgsConstructor
-@EqualsAndHashCode
+@EqualsAndHashCode(of = {"mark"})
 @ToString
 public class CarWithLombok {
     private String model;

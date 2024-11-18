@@ -12,11 +12,11 @@ public class App {
         );
 
         CarWithLombok carWithLombok2 = new CarWithLombok(
-            "GLE",
+            "GLC",
             "Mercedes",
-            2020,
-            350_000,
-            "white",
+            2023,
+            200_000,
+            "silver",
             5
         );
 
